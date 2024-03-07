@@ -1,0 +1,351 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:  hsl(47, 88%, 63%);
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+  height: 100%;
+}
+.card{
+  width: 25vw;
+  height: 460px;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.3rem 0.3rem 0rem;
+}
+.image{
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.illustration{
+  border-radius: 1rem;
+  height: 190px;
+  margin-top: 0.7em;
+}
+.learning{
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  background-color:  hsl(47, 90%, 60%);
+  width: 6vw;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 0.3rem;
+}
+.learning p{
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.date{
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 13px;
+}
+h1{
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.info{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0.8rem;
+  line-height: 1.5rem;
+  font-size: 15px;
+  color: grey;
+  margin-left: 1rem;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.profile img{
+  height: 30px;
+}
+.profile p{
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  margin-left: 0.5rem;
+  font-size: 13px;
+}
+@media (max-width: 1280px){
+  .container{
+    padding-top: 6rem;
+  }
+  .illustration{
+    height: 230px;
+    margin-top: 0.5rem;
+  }
+  .card{
+    height: 530px;
+    width: 400px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .info{
+    font-size: 18px;
+  }
+}
+@media (max-width: 1114px){
+  .container{
+    padding-top: 4rem;
+  }
+  .card{
+    height: 470px;
+    width: 30vw;
+  }
+  .illustration{
+    height: 190px;
+  }
+  h1{
+    font-size: 19px;
+  }
+  .info{
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px){
+  .illustration{
+    height: 170px;
+    margin-top: 0.8rem;
+  }
+}
+@media (max-width: 884px){
+  .card{
+    height: 540px;
+    width: 50vw;
+  }
+  .illustration{
+    height: 248px;
+    margin-top: 0.8rem;
+  }
+  .learning{
+    width: 13vw;
+  }
+  h1{
+    font-size: 29px;
+  }
+  .info{
+    font-size: 19px;
+  }
+}
+@media (max-width: 834px){
+  .container{
+    padding: 10rem;
+  }
+  .card{
+    width: 60vw;
+    height: 620px;
+  }
+  .date{
+    font-size: 19px;
+  }
+  .illustration{
+    margin-top: 1rem;
+    height: 280px;
+  }
+  .learning{
+    width: 13vw;
+    height: 35px;
+  }
+  .learning p{
+    font-size: 17px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .info{
+    font-size: 22px;
+    line-height: 2rem;
+  }
+  .profile p{
+    font-size: 20px;
+}
+@media (width: 800px){
+  .card{
+    width: 60vw;
+    height: 600px;
+  }
+  .illustration{
+    height: 240px;
+    margin-top: 2.4rem;
+  }
+  .profile p{
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px){
+  .card{
+    height: 600px;
+  }
+  .illustration{
+    border-radius: 1rem;
+    height: 250px;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 712px){
+  .card{
+    height: 610px;
+  }
+  .illustration{
+    border-radius: 1rem;
+    height: 220px;
+    margin-top: 0.7rem;
+  }
+}
+@media (max-width: 640px){
+  .illustration{
+    height: 280px;
+    margin-top: 0.5rem;
+  }
+  .card{
+    height: 600px;
+    width: 80vw;
+  }
+  h1{
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 3rem;
+    margin-top: 1.5rem;
+    width: 100vw;
+  }
+  .info{
+    font-size: 20px;
+  }
+}
+@media (max-width: 430px){
+  .container{
+    padding-top: 8rem;
+  }
+  .card{
+    height: 550px;
+    width: 90vw;
+  }
+  .illustration{
+    height: 210px;
+    margin-top: 1rem;
+  }
+  .learning{
+    width: 20vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+  }
+  h1{
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 3rem;
+    margin-top: 1.5rem;
+    width: 100vw;
+  }
+  .info{
+    font-size: 17px;
+  }
+}
+@media (max-width: 393px){
+  .card{
+    height: 540px;
+  }
+  .illustration{
+    height: 190px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .profile{
+    margin-top: 1.5rem;
+  }
+  .profile p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 375px){
+  .container{
+    padding-top: 5rem;
+  }
+  .card{
+    height: 530px;
+  }
+  h1{
+    font-size: 17px;
+  }
+  .info{
+    font-size: 15px;
+  }
+  .illustration{
+    height: 180px;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 360px){
+  .illustration{
+    height: 180px;
+    margin-top: 0.7rem;
+  }
+  .card{
+    height: 480px;
+  }
+  .learning{
+    width: 25vw;
+  }
+  .info{
+    font-size: 12.5px;
+    line-height: 1.5rem;
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px){
+  .container{
+    padding-top: 5rem;
+  }
+  .card{
+    width: 90vw;
+    height: 455px;
+  }
+  .illustration{
+    height: 160px;
+  }
+  .learning{
+    width: 25vw;
+  }
+  .learning p{
+    font-size: 12px;
+  }
+  h1{
+    font-size: 15px;
+  }
+  .info{
+    font-size: 12.5px;
+    line-height: 1.5rem;
+  }
+}
+
